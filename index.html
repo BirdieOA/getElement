@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 4</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="seccion">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+    </section>
+
+
+    <script type="text/javascript">
+        let cajas=document.getElementsByClassName("caja");
+        document.getElementById("seccion").innerHTML+=`<h1>${cajas.length}</h1>`
+    </script>
+</body>
+</html>
